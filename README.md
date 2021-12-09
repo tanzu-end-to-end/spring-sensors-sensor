@@ -3,7 +3,7 @@
 An application to demonstrate the capabilities of [VMware Tanzu Application Platform](https://tanzu.vmware.com/application-platform).
 
 This application acts as a sensor that generates and sends sensor data via asynchronous messaging.
-The data is consumed and displayed on a dashboard by an application available [here](https://github.com/tanzu-end-to-end/spring-sensors).
+The data is consumed and displayed on a dashboard by an application available [here](https://github.com/tanzu-end-to-end/spring-sensors/tree/rabbit).
 
 [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream), a framework built on top of Spring Boot and Spring Integration, is used as a flexible messaging abstraction. 
 Spring Cloud Stream supports a variety of binder implementations. In this case, we are using the one for RabbitMQ.
